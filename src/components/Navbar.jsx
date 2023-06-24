@@ -9,7 +9,7 @@ const Navbar = () => {
     const toggleNav = () => setNav(!nav)
     
     return(
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#6F2232]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1e3751]'>
         <div><img src={Logo} alt="Logo" style={{ width: '70px' }}></img></div>
         {/* Menu */}
         <ul className='hidden md:flex'>
@@ -35,30 +35,30 @@ const Navbar = () => {
         </ul>
 
         {/* Social icons */}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        {/* <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0b65c2]'>
                     <a 
                     className='flex justify-between items-center w-full text-white' 
                     href='/'>
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#02040a]'>
                     <a 
                     className='flex justify-between items-center w-full text-white' 
                     href='/'>
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C3073F]'>
                     <a 
                     className='flex justify-between items-center w-full text-white' 
                     href='/'>
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1E3751]'>
                     <a 
                     className='flex justify-between items-center w-full text-white' 
                     href='/'>
@@ -66,7 +66,7 @@ const Navbar = () => {
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> */}
         
     </div>
     )
