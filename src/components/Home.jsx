@@ -1,9 +1,8 @@
 import React from 'react'
-import
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='w-full h-screen'></div>
   )
 }
 

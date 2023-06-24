@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import Logo from '../assets/RB.png'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -33,7 +35,38 @@ const Navbar = () => {
         </ul>
 
         {/* Social icons */}
-        <div className='hidden'></div>
+        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <ul>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <a 
+                    className='flex justify-between items-center w-full text-white' 
+                    href='/'>
+                        LinkedIn <FaLinkedin size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <a 
+                    className='flex justify-between items-center w-full text-white' 
+                    href='/'>
+                        GitHub <FaGithub size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                    <a 
+                    className='flex justify-between items-center w-full text-white' 
+                    href='/'>
+                        Email <HiOutlineMail size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                    <a 
+                    className='flex justify-between items-center w-full text-white' 
+                    href='/'>
+                        Resume <BsFillPersonLinesFill size={30}/>
+                    </a>
+                </li>
+            </ul>
+        </div>
         
     </div>
     )
