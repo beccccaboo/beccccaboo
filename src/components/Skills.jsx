@@ -13,7 +13,7 @@ import reactJS from '../assets/react.png'
 const Skills = () => {
   return (
     <div name = 'skills' className='text-[#1e3751]'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-5 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-[#C3073F] inline'>Skills</p>
                 <p className='py-4'>Some of the technologies I'm familiar with</p>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/RB.png'
+import Logo from '../assets/Logo2.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -9,8 +9,8 @@ const Navbar = () => {
     const toggleNav = () => setNav(!nav)
     
     return(
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1e3751]'>
-        <div><img src={Logo} alt="Logo" style={{ width: '70px' }}></img></div>
+    <div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1e3751]'>
+        <div className='h-50px w-50px rounded-md overflow-hidden'><img className='object-cover h-[100%] w-[100%]' src={Logo} alt="Logo" style={{ width: '50px' }}></img></div>
         {/* Menu */}
         <ul className='hidden md:flex'>
             <li>Home</li>

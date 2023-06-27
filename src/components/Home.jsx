@@ -9,7 +9,7 @@ const Home = () => {
         {/* Container flexbox for text */}
         <div className='w-full h-screen md:max-w-[750px] text-left'>
             <div className='max-w-[1000px] flex flex-col justify-center h-full mx-8 sm:ml-8'>
-                <p className='text-[#1E5E5E]'>Hi, I am</p>
+                <p className='text-[#1e3751]'>Hi, I am</p>
                 <h1 className='text-4xl md:text-7xl font-bold text-[#1e3751] mb-2'>Rebecca Biju</h1>
                 <h6 className='text-2xl md:text-3xl font-bold text-[#6a7280] max-w-[800px]'>A Full Stack Developer, UX and DevOps Enthusiast</h6>
                 <p className='text-[#6a7280] py-4 max-w-[700px]'>I have a strong background in web development and a passion for creating innovative solutions. With expertise in programming languages, cloud computing, and user experience design, I excel in developing scalable applications and collaborating with cross-functional teams</p>
