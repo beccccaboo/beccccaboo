@@ -14,7 +14,7 @@ const Home = () => {
                 <h6 className='text-2xl md:text-3xl font-bold text-[#6a7280] max-w-[800px]'>A Full Stack Developer, UX and DevOps Enthusiast</h6>
                 <p className='text-[#6a7280] py-4 max-w-[700px]'>I have a strong background in web development and a passion for creating innovative solutions. With expertise in programming languages, cloud computing, and user experience design, I excel in developing scalable applications and collaborating with cross-functional teams</p>
                 <div>
-                    <button className='text-white bg-[#C3073F] px-6 py-3 my-2 flex items-center hover:bg-[#1e3751]'>My Projects <HiArrowNarrowRight className='ml-3'/></button>
+                    <button className='text-white bg-[#C3073F] px-6 py-3 my-2 flex items-center hover:bg-[#1e3751] rounded-sm'>My Projects <HiArrowNarrowRight className='ml-3'/></button>
                 </div>
             </div>
         </div>
