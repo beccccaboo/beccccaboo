@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+import { BsDownload } from 'react-icons/bs'
 import ProfileImage from '../assets/Self.png'
 
 const Home = () => {
@@ -14,7 +14,20 @@ const Home = () => {
                 <h6 className='text-2xl md:text-3xl font-bold text-[#6a7280] max-w-[800px]'>A Full Stack Developer, UX and DevOps Enthusiast</h6>
                 <p className='text-[#6a7280] py-4 max-w-[700px]'>I have a strong background in web development and a passion for creating innovative solutions. With expertise in programming languages, cloud computing, and user experience design, I excel in developing scalable applications and collaborating with cross-functional teams</p>
                 <div>
-                    <button className='text-white bg-[#C3073F] px-6 py-3 my-2 flex items-center hover:bg-[#1e3751] rounded-sm'>My Projects <HiArrowNarrowRight className='ml-3'/></button>
+                
+						
+                        <a
+						download="RebeccaBiju_Resume.pdf"
+						href="/files/RebeccaBiju_Resume.pdf"
+                        className='inline-block'
+						// className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+						// aria-label="Download Resume"
+					    >
+                                <button className='text-white bg-[#C3073F] px-6 py-3 my-2 flex items-center hover:bg-[#1e3751] rounded-sm'>My Resume<BsDownload className='ml-3'/></button>
+                    </a>
+                        
+					
+                    {/* <button className='text-white bg-[#C3073F] px-6 py-3 my-2 flex items-center hover:bg-[#1e3751] rounded-sm'>My Projects <HiArrowNarrowRight className='ml-3'/></button> */}
                 </div>
             </div>
         </div>

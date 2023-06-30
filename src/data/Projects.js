@@ -57,7 +57,7 @@ export const projects = [
       date: '2020',
       tech: ['Adobe InDesign'],
       tagline: '',
-      source: 'https://drive.google.com/file/d/10HKUAsJMYazz3Mp_ZdvCHDAluu7gOyzK/view?usp=sharing',
+      demo: 'https://drive.google.com/file/d/10HKUAsJMYazz3Mp_ZdvCHDAluu7gOyzK/view?usp=sharing',
     },
     {
         id: 8,

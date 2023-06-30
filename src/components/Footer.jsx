@@ -27,8 +27,8 @@ const socialLinks = [
 const Footer = () => {
   return (
     <>
-    <div className="container mx-auto">
-			<div className="pt-5 sm:pt-10 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
+    <div name="contact" className="my-20 text-[#1e3751]">
+			<div className="max-w-[1000px] mx-auto p-5 flex flex-col justify-center w-full h-full sm:pt-10 border-t-2 border-primary-light dark:border-secondary-dark">
 				{/* Footer social links */}
 				<div className="font-bold text-[#1e3751] flex flex-col justify-center items-center mb-5 sm:mb-[55px]">
 					<p className="text-3xl sm:text-4xl text-[#1e3751] mb-5">
@@ -54,7 +54,7 @@ const Footer = () => {
 		</div>
         {/* Copyright */}
         <div className="w-[100%] text-[#1e3751] bg-[#f0f0f0] p-5 ">
-        <div className='text-sm sm:text-base flex flex-row  justify-between items-center text-center'>
+        <div className='text-xs sm:text-base flex flex-row  justify-between items-center text-center'>
                 <div>&copy; {new Date().getFullYear()} Copyright</div><br/>
                 <div>Made with ReactJS & Tailwind CSS</div><br/>
                 <div>By Rebecca Biju</div>
