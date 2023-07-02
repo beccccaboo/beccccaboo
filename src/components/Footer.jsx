@@ -8,19 +8,19 @@ const socialLinks = [
 		id: 1,
 		icon: <FaGithub />,
 		url: 'https://github.com/beccccaboo',
-        bgColour: '#02040a'
+        bgColour: 'githubBlack'
 	},
 	{
 		id: 2,
 		icon: <FaLinkedin />,
 		url: 'https://www.linkedin.com/in/rebecca-biju/',
-        bgColour: '#0b65c2'
+        bgColour: 'linkedInBlue'
 	},
 	{
 		id: 3,
 		icon: <HiOutlineMail />,
 		url: 'mailto: rebeccabiju@gmail.com',
-        bgColour: '#C3073F'
+        bgColour: 'mailPink'
 	}
 ];
 
@@ -40,7 +40,7 @@ const Footer = () => {
 								href={link.url}
 								target="__blank"
 								key={link.id}
-								className={`text-white bg-[${link.bgColour}] hover:bg-gray-100 hover:text-[#1e3751] cursor-pointer rounded-lg shadow-sm p-4 duration-300`}
+								className={`text-white bg-${link.bgColour} hover:bg-gray-100 hover:text-[#1e3751] cursor-pointer rounded-lg shadow-sm p-4 duration-300`}
 							>
 								<i className="text-xl sm:text-2xl md:text-3xl">
 									{link.icon}
