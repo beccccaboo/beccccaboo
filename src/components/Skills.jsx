@@ -8,6 +8,8 @@ import Javascript from '../assets/javascript.png'
 import Mongo from '../assets/mongo.png'
 import Node from '../assets/node.png'
 import reactJS from '../assets/react.png'
+import Figma from '../assets/figma.png'
+import Terraform from '../assets/terraform.png'
 
 
 const Skills = () => {
@@ -53,6 +55,19 @@ const Skills = () => {
                     <img className='mt-4 w-20 mx-auto' src={reactJS} alt='ReactJS'></img>
                     <p className='my-4'>ReactJS</p>
                 </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500 rounded-md'>
+                    <img className='mt-4 w-20 mx-auto' src={Github} alt='ReactJS'></img>
+                    <p className='my-4'>GitHub</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500 rounded-md'>
+                    <img className='mt-4 w-20 mx-auto' src={Terraform} alt='ReactJS'></img>
+                    <p className='my-4'>Terraform</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-105 duration-500 rounded-md'>
+                    <img className='mt-4 w-20 mx-auto' src={Figma} alt='ReactJS'></img>
+                    <p className='my-4'>Figma</p>
+                </div>
+
             </div>
         </div>
     </div>

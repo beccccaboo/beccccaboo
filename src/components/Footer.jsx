@@ -19,7 +19,7 @@ const socialLinks = [
 	{
 		id: 3,
 		icon: <HiOutlineMail />,
-		url: '#',
+		url: 'mailto: rebeccabiju@gmail.com',
         bgColour: '#C3073F'
 	}
 ];

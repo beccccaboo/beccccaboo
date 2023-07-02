@@ -17,7 +17,7 @@ const About = () => {
                 <div className='w-full md:max-w-[950px] text-left'>
                     <div className='max-w-[1000px] flex flex-col justify-center h-full mx-8 sm:ml-8'>
                       {bioData.map((bio, index)=>(
-                        <p key={index} className='text-[#6a7280] py-4 '>{bio.para}</p>
+                        <p key={index} className='text-[#6a7280] py-4 ' dangerouslySetInnerHTML={{ __html: bio.para }}></p>
                       ))}
                       </div>
                 </div>
