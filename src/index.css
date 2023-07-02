@@ -18,3 +18,8 @@
     @apply py-6;
     @apply text-4xl;
 }
+
+.contact:hover{
+    color: #1e3751;
+    background-color: azure !important;
+}
