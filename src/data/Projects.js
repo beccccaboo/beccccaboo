@@ -5,7 +5,7 @@ export const projects = [
       date: '2023',
       tech: ['EC2', 'VPC', 'CloudWatch', 'IAM', 'RDS', 'S3', 'Terraform', 'Packer', 'NodeJS', 'PostgreSQL', 'ExpressJS' ],
       tagline:
-        'A production ready REST API w/ Github Actions using NodeJS, Express and Postgres. Deployed using AWS CloudFormation IaC integrating S3, RDS, Cloudwatch and EC2 using a custom AMI built using Packer.',
+        'A highly scalable RESTful API for a Cloud Native application with Github Actions using NodeJS, Express and Postgres. Deployed using AWS Terraform IaC integrating S3, RDS, Cloudwatch and EC2 using a custom AMI built using Packer.',
       source: 'https://github.com/orgs/CloudComputingSpringCSYE6225/repositories',
     },
     {
