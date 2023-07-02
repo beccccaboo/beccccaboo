@@ -39,40 +39,6 @@ const Navbar = () => {
             <li><Link onClick={toggleNav} offset={-80} to="projects" spy={true} smooth={true} duration={500}>Projects</Link></li>
             <li><Link onClick={toggleNav} offset={-80} to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
         </ul>
-
-        {/* Social icons */}
-        {/* <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-            <ul>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0b65c2]'>
-                    <a 
-                    className='flex justify-between items-center w-full text-white' 
-                    href='/'>
-                        LinkedIn <FaLinkedin size={30}/>
-                    </a>
-                </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#02040a]'>
-                    <a 
-                    className='flex justify-between items-center w-full text-white' 
-                    href='/'>
-                        GitHub <FaGithub size={30}/>
-                    </a>
-                </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C3073F]'>
-                    <a 
-                    className='flex justify-between items-center w-full text-white' 
-                    href='/'>
-                        Email <HiOutlineMail size={30}/>
-                    </a>
-                </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1E3751]'>
-                    <a 
-                    className='flex justify-between items-center w-full text-white' 
-                    href='/'>
-                        Resume <BsFillPersonLinesFill size={30}/>
-                    </a>
-                </li>
-            </ul>
-        </div> */}
         
     </div>
     )
