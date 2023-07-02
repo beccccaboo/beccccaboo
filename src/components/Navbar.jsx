@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
                 <Link onClick={toggleNav} offset={-80} to="home" spy={true} smooth={true} duration={500}>Home</Link>
             </li>
-            <li>About</li>
+            <li><Link onClick={toggleNav} offset={-80} to="about" spy={true} smooth={true} duration={500}>About</Link></li>
             <li><Link onClick={toggleNav} offset={-80} to="skills" spy={true} smooth={true} duration={500}>Skills</Link></li>
             <li><Link onClick={toggleNav} offset={-80} to="projects" spy={true} smooth={true} duration={500}>Projects</Link></li>
             <li><Link onClick={toggleNav} offset={-80} to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
