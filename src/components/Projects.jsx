@@ -33,7 +33,7 @@ const Projects = () => {
                         {/* Div for Tech Stack */}
                         <div className='pt-1 flex flex-wrap justify-center gap-0 items-center'>
                             {project.tech.map((tech)=>(
-                                <p className='text-xs text-[#1e3751] border-[#6a7280] border rounded-lg m-1 p-1 hover:bg-[#1e3751] hover:text-white hover:cursor-pointer'>{tech}</p>
+                                <p className='text-xs text-[#1e3751] border-[#6a7280] border rounded-lg m-1 p-1 hover:bg-[#1e3751] hover:text-white'>{tech}</p>
                             ))}
                         </div>
                         <p className='py-2 text-[#6a7280]'>

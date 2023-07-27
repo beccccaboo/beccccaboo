@@ -14,7 +14,7 @@ export const projects = [
       date: '2023',
       tech: ['NodeJS', 'MongoDB', 'ReactJS', 'ExpressJS', 'Redux'],
       tagline: 'This project involved the use of MERN stack technologies, Redux for state management, Socket.io for real-time communication, and QuillJS for the rich text editor. The focus was on enhancing collaborative editing capabilities, improving productivity through task management, and optimizing the user experience for efficient collaboration.',
-      source: '',
+      source: 'https://github.com/beccccaboo/editor-hive',
     },
     {
       id: 3,
