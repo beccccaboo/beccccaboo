@@ -1,6 +1,6 @@
 import React from 'react'
 import { bioData } from '../data/Bio'
-import ProfileImage from "../assets/Self2.jpg"
+import ProfileImage from "../assets/Self2.png"
 
 const About = () => {
   return (
